@@ -32,8 +32,8 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
+    padding-top: 60px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 60px;
     text-align: center;
     color: #f8f8f8;
     background: url(../img/intro-bg.jpg) no-repeat center center;
@@ -133,6 +133,28 @@ h6 {
 }
 
 .banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+.banner-donate {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-donate.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner-donate h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner-donate ul {
     margin-bottom: 0;
 }
 
