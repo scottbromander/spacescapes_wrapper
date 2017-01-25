@@ -158,6 +158,23 @@ h6 {
     margin-bottom: 0;
 }
 
+.banner-questions {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-questions.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner-questions h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner-questions ul {
+    margin-bottom: 0;
+}
+
 .banner-social-buttons {
     float: right;
     margin-top: 0;
