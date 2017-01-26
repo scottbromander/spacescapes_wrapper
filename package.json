@@ -1,0 +1,23 @@
+{
+  "name": "Spacescape_wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottbromander/spacescapes_wrapper.git"
+  },
+  "author": "Scott Bromander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottbromander/spacescapes_wrapper/issues"
+  },
+  "homepage": "https://github.com/scottbromander/spacescapes_wrapper",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
