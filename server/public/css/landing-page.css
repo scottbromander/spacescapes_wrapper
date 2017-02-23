@@ -44,6 +44,13 @@ h6 {
     background-size: cover;
 }
 
+.header-video {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  background-color: #000000;
+}
+
 .intro-message {
     position: relative;
     padding-top: 20%;
@@ -228,4 +235,8 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+video::-internal-media-controls-download-button {
+    display:none;
 }
