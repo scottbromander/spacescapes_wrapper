@@ -240,3 +240,7 @@ p.copyright {
 video::-internal-media-controls-download-button {
     display:none;
 }
+
+.video-header {
+  color: #ffffff;
+}
