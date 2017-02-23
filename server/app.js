@@ -6,7 +6,6 @@ app.set("port", (process.env.PORT || 5000));
 
 
 app.get("/*", function(req,res){
-  console.log(req.params[0]);
   var file = req.params[0] || "index.html";
   res.sendFile(path.join(__dirname, "/public/", file));
 });
